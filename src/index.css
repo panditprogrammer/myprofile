@@ -16,6 +16,11 @@
     /* --accent-color: var(--colorPrimary); */
 }
 
+::selection{
+    background: var(--colorPrimary) ;
+    color: var(--bs-white);
+}
+
 ::-webkit-scrollbar {
     display: none;
 }

@@ -9,7 +9,7 @@ const Banner = () => {
                     <div className='d-flex justify-content-center align-items-center flex-column'>
                         <img src="https://avatars.githubusercontent.com/u/65272533" className='object-fit-contain rounded-circle p-lg-1 p-md-2 p-sm-4' height="280px" alt="" />
 
-                        <h1 className='h3 text-primary text-uppercase'>Chandan Pandit</h1>
+                        <h1 className='h3 text-primary text-uppercase'>Chandan Prajapati</h1>
 
                         <h2 className='h5'>MERN Stack Developer</h2>
                         <h5><i className="fa-solid fa-location-dot"></i> <a href="https://goo.gl/maps/89n7Eg2geGeo4RX68" target="blank">Ara,India</a></h5>
@@ -46,7 +46,7 @@ const Banner = () => {
                 </div>
 
                 <div className="col-md-6 col-sm-12">
-                    <h1 className="h3 text-uppercase"> &mdash; Who Am I? &mdash; </h1>
+                    <h1 className="h3 text-uppercase"> &mdash; Who Am I &mdash; </h1>
                     <p>
                         As a MERN Stack Developer, I have a strong understanding of the technologies that make up the MERN stack: MongoDB, Express.js, React.js, and Node.js. I am proficient in using these technologies to develop and maintain web applications.
                     </p>

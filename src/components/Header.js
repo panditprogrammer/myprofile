@@ -5,13 +5,16 @@ const Header = () => {
     return (
         <>
             <div className="bg-white">
-                <div className="container py-2 d-flex justify-content-between align-items-center">
-                    <h6 className='small m-0'>
-                        <i className="fa-solid fa-envelope"></i> <a href="mailto:panditprogrammer@gmail.com">panditprogrammer@gmail.com</a>
-                    </h6>
-                    <h6 className='small m-0'>
-                        <i className="fa-solid fa-earth-americas"></i> <a target="blank" href="http://www.panditprogrammer.com">www.panditprogrammer.com</a>
-                    </h6>
+                <div className="container py-2">
+                    <div className="d-flex justify-content-between align-items-center flex-md-row flex-column">
+                        <span className='small m-0'>
+                            <i className="fa-solid fa-envelope"></i> <a href="mailto:panditprogrammer@gmail.com">panditprogrammer@gmail.com</a>
+                        </span>
+                        <span className='small m-0'>
+                            <i className="fa-solid fa-earth-americas"></i> <a target="blank" href="http://www.panditprogrammer.com">www.panditprogrammer.com</a>
+                        </span>
+                    </div>
+
                 </div>
             </div>
             <nav className="navbar navbar-expand-lg shadow-sm">
